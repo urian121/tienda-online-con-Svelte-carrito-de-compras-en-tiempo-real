@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Café Caramel con Chocolate",
+        "price": 59.9,
+        "image": "cafe_01",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Frio con Chocolate Grande",
+        "price": 49.9,
+        "image": "cafe_02",
+        "category": "cafe"
+      },
+      {
+        "name": "Latte Frio con Chocolate Grande",
+        "price": 54.9,
+        "image": "cafe_03",
+        "category": "cafe"
+      },
+      {
+        "name": "Latte Frio con Chocolate Grande",
+        "price": 54.9,
+        "image": "cafe_04",
+        "category": "cafe"
+      },
+      {
+        "name": "Malteada Fria con Chocolate Grande",
+        "price": 54.9,
+        "image": "cafe_05",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Mocha Caliente Chico",
+        "price": 39.9,
+        "image": "cafe_06",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Mocha Caliente Grande con Chocolate",
+        "price": 59.9,
+        "image": "cafe_07",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Caliente Capuchino Grande",
+        "price": 59.9,
+        "image": "cafe_08",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Mocha Caliente Mediano",
+        "price": 49.9,
+        "image": "cafe_09",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Mocha Frio con Caramelo Mediano",
+        "price": 49.9,
+        "image": "cafe_10",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Mocha Frio con Chocolate Mediano",
+        "price": 49.9,
+        "image": "cafe_11",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Espresso",
+        "price": 29.9,
+        "image": "cafe_12",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Capuchino Grande con Caramelo",
+        "price": 59.9,
+        "image": "cafe_13",
+        "category": "cafe"
+      },
+      {
+        "name": "Café Caramelo Grande",
+        "price": 59.9,
+        "image": "cafe_14",
+        "category": "cafe"
+      }
+]
