@@ -1,13 +1,19 @@
 <script>
   import { onMount } from "svelte";
+  import { addToCart } from "../stores/cartStore"; // Importamos la función para agregar al carrito
   let cafes = [];
 
   // Cargar los datos al montar el componente
   onMount(async () => {
     const response = await fetch("/data/data.json");
     cafes = await response.json();
-    console.log(cafes);
+    //console.log(cafes);
   });
+
+  // Función para agregar al carrito
+  function handleAddToCart(cafe) {
+    addToCart(cafe);
+  }
 </script>
 
 {#each cafes as cafe}
@@ -25,7 +31,7 @@
           Precio: <strong class="price">${cafe.price}</strong>
         </p>
 
-        <button class="btn btn-cart w-100 mt-auto">
+        <button class="btn btn-cart w-100 mt-auto" on:click={() => handleAddToCart(cafe)}>
           Agregar al carrito &nbsp; <i class="bi bi-cart-plus"></i>
         </button>
       </div>
