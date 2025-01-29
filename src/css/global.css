@@ -1,8 +1,12 @@
 body {
   background-color: #f9f9f9 !important;
 }
-h1{
+h1 {
   color: #ff4408 !important;
+}
+h4 {
+  width: 100% !important;
+  font-weight: 600;
 }
 .position-relative {
   z-index: 1;
@@ -73,8 +77,9 @@ h1{
 }
 
 .btn_shopping {
-  background-color: #b8e8f7 !important;
-  border: 1px solid #b3b3b3 !important;
+  background-color: #ff6f41 !important;
+  border: 1px solid #ff6f41 !important;
+  color: white !important;
 }
 .btn_shopping :hover {
   animation: swing 0.6s ease forwards;
@@ -102,6 +107,21 @@ h1{
   transform: translateX(100%);
   opacity: 0;
 }
-.transition{
-  transition:transform 0.6s ease, opacity 0.6s ease
+.transition {
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+.fs-6 {
+  font-size: 14px !important;
+  color: #7b7b7b !important;
+}
+.bg-danger {
+  background-color: #0b0b0b !important;
+}
+.btn-danger {
+  background-color: #ff6f41 !important;
+  border: 1px solid #ff6f41 !important;
+  color: white !important;
+}
+.btn-danger:hover {
+  opacity: 0.8 !important;
 }

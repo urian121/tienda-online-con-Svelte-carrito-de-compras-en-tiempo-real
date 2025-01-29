@@ -44,7 +44,7 @@
   {
     "id": 7,
     "name": "Café Mocha Caliente Grande con Chocolate",
-    "price": 59.9,
+    "price": 29.9,
     "image": "cafe_07",
     "category": "cafe"
   },
@@ -86,15 +86,29 @@
   {
     "id": 13,
     "name": "Café Capuchino Grande con Caramelo",
-    "price": 59.9,
+    "price": 15.9,
     "image": "cafe_13",
     "category": "cafe"
   },
   {
     "id": 14,
     "name": "Café Caramelo Grande",
-    "price": 59.9,
+    "price": 19.1,
     "image": "cafe_14",
+    "category": "cafe"
+  },
+  {
+    "id": 15,
+    "name": "Café Pilón",
+    "price": 42.3,
+    "image": "cafe_15",
+    "category": "cafe"
+  },
+  {
+    "id": 16,
+    "name": " Café Cubita",
+    "price": 62.2,
+    "image": "cafe_16",
     "category": "cafe"
   }
 ]

@@ -1,4 +1,4 @@
-import { writable } from "svelte/store";
+import { writable, derived } from "svelte/store";
 
 // Creamos un store con un arreglo vacío (carrito vacío)
 export const cart = writable([]);
@@ -51,3 +51,13 @@ function showOffcanvas() {
   const offcanvasElement = document.getElementById("offcanvasRight");
   offcanvasElement.classList.add("show");
 }
+
+/**
+ * Función para calcular el subtotal (store derivado)
+ * Creando un store derivado (derived) para que el subtotal se actualice automáticamente cuando cambie el carrito
+ */
+export const subtotal = derived(cart, ($cart) => {
+  return $cart
+    .reduce((total, item) => total + item.price * item.quantity, 0)
+    .toFixed(2);
+});

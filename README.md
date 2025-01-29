@@ -86,11 +86,18 @@ Las contribuciones son bienvenidas. Si deseas agregar nuevas características o 
 4. Haz push a tu rama (`git push origin nueva-caracteristica`).
 5. Abre un Pull Request en GitHub.
 
-## Licencia
 
-Este proyecto está licenciado bajo la [MIT License](https://opensource.org/licenses/MIT).
 
-## Contacto
+# Apóyanos 🙌
 
-Puedes ponerte en contacto conmigo a través de mi correo electrónico: `tu-email@dominio.com`.
+✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
 
+☕ **Invítame un café o una cerveza 🍺**:
+   - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
+
+👍 **Suscríbete a mi canal de [YouTube](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)** para más contenido increíble y tutoriales.
+
+⭐ **Déjanos una estrella en GitHub**:
+   - Dicen que trae buena suerte 🍀.
+
+Gracias por tu apoyo 🤓.

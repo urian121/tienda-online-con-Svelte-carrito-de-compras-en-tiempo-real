@@ -31,7 +31,10 @@
           Precio: <strong class="price">${cafe.price}</strong>
         </p>
 
-        <button class="btn btn-cart w-100 mt-auto" on:click={() => handleAddToCart(cafe)}>
+        <button
+          class="btn btn-cart w-100 mt-auto"
+          on:click={() => handleAddToCart(cafe)}
+        >
           Agregar al carrito &nbsp; <i class="bi bi-cart-plus"></i>
         </button>
       </div>
