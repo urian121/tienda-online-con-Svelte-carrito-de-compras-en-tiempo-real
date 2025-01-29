@@ -1,10 +1,7 @@
 # Tienda Online con Svelte: Carrito de Compras en Tiempo Real
 
-### Dependencias
-```
-npm i bootstrap@5.3.3
-npm i bootstrap-icons
-```
+### Resultado final 🔥
+![Resultado final](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/tienda-online-con-svelte-carrito-de-compras-en-tiempo-real.gif)
 
 ## Descripción
 
@@ -25,28 +22,13 @@ Esta es una tienda en línea de café, donde los usuarios pueden agregar product
 - **Svelte Store**: Se usa para gestionar el estado global del carrito y el mensaje de WhatsApp.
 - **Font Awesome**: Para los íconos, como el de la bolsa de compras y el de la basura.
 
-## Estructura de la Aplicación
-
-```
-src/
-├── lib/
-│   ├── Api.svelte         # Componente para manejar la API de productos
-│   └── Footer.svelte      # Componente para el pie de página
-├── stores/
-│   ├── cartStore.js       # Store para gestionar el carrito de compras
-│   └── whatsappStore.js   # Store para generar el mensaje de WhatsApp
-├── App.svelte             # Componente principal de la aplicación
-├── main.js                # Archivo de entrada
-└── public/
-    └── fotos-cafe/        # Imágenes de los productos
-```
 
 ## Instalación
 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tuusuario/tienda-cafe.git
+git clone https://github.com/urian121/tienda-online-con-Svelte-carrito-de-compras-en-tiempo-real
 ```
 
 ### 2. Instalar dependencias
@@ -54,8 +36,14 @@ git clone https://github.com/tuusuario/tienda-cafe.git
 Asegúrate de tener Node.js y npm instalados, luego instala las dependencias del proyecto.
 
 ```bash
-cd tienda-cafe
+cd tienda-online-con-Svelte-carrito-de-compras-en-tiempo-real
 npm install
+```
+
+### Dependencias
+```bash
+npm i bootstrap@5.3.3
+npm i bootstrap-icons
 ```
 
 ### 3. Ejecutar la aplicación
@@ -66,7 +54,7 @@ Para ejecutar la aplicación en modo de desarrollo, usa el siguiente comando:
 npm run dev
 ```
 
-La aplicación estará disponible en `http://localhost:5000`.
+La aplicación estará disponible en `http://localhost:5173`.
 
 ## Uso
 
@@ -75,17 +63,6 @@ La aplicación estará disponible en `http://localhost:5000`.
 3. El carrito puede ser visualizado desde el ícono en la esquina superior derecha.
 4. Los usuarios pueden ver el subtotal y eliminar productos del carrito.
 5. Una vez que los productos estén listos, pueden enviar el pedido directamente a través de WhatsApp.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas agregar nuevas características o corregir errores, sigue estos pasos:
-
-1. Haz un fork del proyecto.
-2. Crea una rama nueva para tu característica (`git checkout -b nueva-caracteristica`).
-3. Haz tus cambios y commitea (`git commit -am 'Añadir nueva característica'`).
-4. Haz push a tu rama (`git push origin nueva-caracteristica`).
-5. Abre un Pull Request en GitHub.
-
 
 
 # Apóyanos 🙌
