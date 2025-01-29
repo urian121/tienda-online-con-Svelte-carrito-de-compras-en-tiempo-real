@@ -28,7 +28,7 @@ Esta es una tienda en línea de café, donde los usuarios pueden agregar product
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/urian121/tienda-online-con-Svelte-carrito-de-compras-en-tiempo-real
+git clone https://github.com/urian121/tienda-online-con-svelte-carrito-de-compras-en-tiempo-real
 ```
 
 ### 2. Instalar dependencias
@@ -36,7 +36,7 @@ git clone https://github.com/urian121/tienda-online-con-Svelte-carrito-de-compra
 Asegúrate de tener Node.js y npm instalados, luego instala las dependencias del proyecto.
 
 ```bash
-cd tienda-online-con-Svelte-carrito-de-compras-en-tiempo-real
+cd tienda-online-con-svelte-carrito-de-compras-en-tiempo-real
 npm install
 ```
 
