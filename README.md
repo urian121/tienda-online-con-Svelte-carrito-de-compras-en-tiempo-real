@@ -20,8 +20,6 @@ Esta es una tienda en línea de café, donde los usuarios pueden agregar product
 - **Bootstrap**: Framework CSS utilizado para el diseño y la responsividad.
 - **JavaScript**: Lenguaje principal para la interacción de la aplicación.
 - **Svelte Store**: Se usa para gestionar el estado global del carrito y el mensaje de WhatsApp.
-- **Font Awesome**: Para los íconos, como el de la bolsa de compras y el de la basura.
-
 
 ## Instalación
 
