@@ -63,7 +63,7 @@ La aplicación estará disponible en `http://localhost:5173`.
 5. Una vez que los productos estén listos, pueden enviar el pedido directamente a través de WhatsApp.
 
 
-### 🙌 Cómo puedes apoyar 📢:
+## 🙌 Cómo puedes apoyar 📢:
 
 ✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
 
